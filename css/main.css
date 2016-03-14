@@ -1,0 +1,280 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	text-transform: uppercase;
+	color: #DA3931;
+	font-size: 42px;
+}
+
+a {
+	text-decoration: none;
+	color: #DA3931;
+}
+
+.container {
+	width: 900px;
+	margin: 30px auto;
+}
+
+.backToTop {
+	float: right;
+	font-size: 10px;
+	color: #000000;
+	display:none;
+	padding-right: 20px;
+}
+
+/*--BEGIN HEADER--*/
+
+header {
+	background-color: #1C2333;
+	height: 130px;
+	width: 900px;
+	margin: 0 auto;
+	position: fixed;
+	top: 0;
+	padding: 20px 40px;
+}
+
+header h1 {
+	color: #BBF7FF;
+}
+
+nav li {
+	display: inline-block;
+	text-transform: uppercase;
+	margin-right: 15px;
+}
+
+nav li a {
+		color: #FFFFFF;
+}
+
+nav li a:hover {
+	color: #BBF7FF;
+}
+
+nav li a:active {
+	color: #BBF7FF;
+}
+
+.logo, nav {
+	display: inline-block;
+	margin-right: 40px;
+}
+
+header button {
+	float: right;
+	background-color: #BBF7FF;
+	margin-top: 53px;
+}
+
+/*--END HEADER--*/
+
+/*--BEGIN JUMBOTRON--*/
+
+.jumbotron {
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 400px;
+	margin-top: 130px;
+	padding: 60px 40px;
+}
+
+.index {
+	background-image: url("../img/larryhero.jpg");
+}
+
+.about {
+	background-image: url("../img/aboutlarry.jpg");
+}
+
+.events {
+	background-image: url("../img/larry.jpg");
+}
+
+.issues {
+	background-image: url("../img/larrylove.jpg");
+}
+
+.jumbotron h1 {
+	font-size: 72px;
+	color: #BBF7FF;
+	text-shadow: 1px 2px 3px #1C2333;
+}
+
+/*--END JUMBOTRON--*/
+
+
+/*--BEGIN SECTION--*/
+
+section {
+	background-color: #BBF7FF;
+	overflow: auto;
+	padding: 20px 40px;
+	width: 900px;
+}
+
+section h1 {
+	color: #DA3931;
+}
+
+.col {
+	float: left;
+	width: 50%;
+}
+.donate {
+	margin-top: 40px;
+	color: #FFFFFF;
+}
+
+.center {
+	text-align: center;
+}
+
+/*--END SECTION--*/
+
+/*--BEGIN FORM--*/
+
+input, textarea {
+	padding: 10px;
+	margin: 10px 0;
+	border: 1px solid #DA3931;
+	width: 400px;
+}
+
+button {
+	padding: 10px;
+	background-color: #1C2333;
+	color: #FFFFFF;
+	border: none;
+	width: 150px;
+	font-weight: bold;
+	font-size: 16px;
+	border-radius: 2px;
+}
+
+/*--END FORM--*/
+
+/*--BEGIN ARTICLE--*/
+
+article {
+	width: 900px;
+    margin: 20px 0;
+}
+
+.col3 {
+	width: 33.3333%;
+	float: left;
+	padding: 0 20px;
+}
+
+article img {
+	width: 100%;
+	padding-bottom: 10px;
+}
+
+article h1 {
+	color: #DA3931;
+	padding-bottom: 10px;
+}
+
+article p {
+	font-size: 12px;
+	line-height: 16px;
+	color: #000000;
+	margin: 0 0 20px;
+}
+
+article div {
+	float: left;
+}
+
+.wd100 {
+	margin: 20px 0;
+}
+
+.wd100 p {
+	font-size: 12px;
+	line-height: 16px;
+}
+
+/*--END ARTICLE--*/
+
+/*--BEGIN FOOTER*/
+
+footer {
+	height: 60px;
+	margin: 40px auto 0;
+	border-top: 3px solid #BBF7FF;
+	clear: both;
+	padding: 0 20px;
+}
+
+footer p {
+	font-size: 10px;
+	text-transform: uppercase;
+	float: left;
+	margin-top: 15px;
+}
+
+footer ul {
+	float: right;
+	margin-top: 10px;
+}
+
+footer li {
+	text-transform: uppercase;
+	display: inline-block;
+	font-size: 10px;
+	margin-left: 15px;
+}
+
+/*--END FOOTER--*/
+
+/*--MEDIA--*/
+/*@media all and (max-width: 768px) {
+	.jumbotron {
+		display: none;
+	}
+	.col3 {
+		float: none;
+	}
+	.logo, nav {
+	display: block;
+	float: none;
+	}
+	nav li, footer li {
+	display: block;
+	text-align: left;
+	margin-left: 0;
+	}
+	footer ul {
+		float: none;
+	}
+	.logo {
+		margin-left: 40px;
+	}
+	input, textarea {
+	width: 325px;
+	}
+	.container {
+		max-width: 100%;
+	}
+	.col3 {
+		width: 100%;
+	}
+	.col {
+		width: 100%;
+		padding-right: 0;
+		float: none;
+	}
+}*/
